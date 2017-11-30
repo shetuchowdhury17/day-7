@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <hr/>
+                <form action="demo.html" method="POST">
+                <div class="form-group">
+                    <label for="firstName">First Name</label>
+                    <input type="text" value="BITM" name="first_name" id="firstName" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" name="last_name" id="lastName" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label for="emailAddress">Email Address</label>
+                    <input type="email" name="email_address" id="emailAddress" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" name="password" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label>Phone Number</label>
+                    <input type="number" name="phone_number" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label>Date Of Birth</label>
+                    <input type="date" name="date_of_birth" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label><input type="radio" name="gender" value="male">Male</label>
+                    <label><input type="radio" name="gender" value="female">Female</label>
+
+                </div>
+
+                <div class="form-group">
+                    <label>Address</label>
+                    <textarea name="address" class="form-control" rows="5"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>District Name</label>
+                    <select name="district_name" class="form-control">
+                        <option>---Select District Name---</option>
+                        <option value="dhaka">Dhaka</option>
+                        <option value="sherpur">Sherpur</option>
+                        <option value="jamalpur">Jamalpur</option>
+                        <option value="noakhali">Noakhali</option>
+                        <option value="comilla">Comilla</option>
+
+                    </select>
+                </div>
+
+                <!--<div class="form-group">-->
+                    <!--<label>District Name</label>-->
+                    <!--<select name="district_name" class="form-control" multiple>-->
+                        <!--<option>-&#45;&#45;Select District Name-&#45;&#45;</option>-->
+                        <!--<option>Dhaka</option>-->
+                        <!--<option>Sherpur</option>-->
+                        <!--<option>Jamalpur</option>-->
+                        <!--<option>Noakhali</option>-->
+                        <!--<option>Comilla</option>-->
+
+                    <!--</select>-->
+                <!--</div>-->
+
+                <div class="form-group">
+                    <label>Image</label>
+                    <input type="file" name="image" accept="image/*" multiple>
+                </div>
+
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="checkbox" name="agree" class="form-check-input"/> I agree with all terms & condition
+                    </label>
+                </div>
+
+                <!--<div class="form-check">-->
+                    <!--<label class="form-check-label">-->
+                        <!--<input type="checkbox" name="agree" class="form-check-input"/> HTML-->
+                    <!--</label>-->
+                <!--</div>-->
+                <!--<div class="form-check">-->
+                    <!--<label class="form-check-label">-->
+                        <!--<input type="checkbox" name="agree" class="form-check-input"/> CSS-->
+                    <!--</label>-->
+                <!--</div>-->
+
+                <div class="form-group">
+                    <input type="submit" name="btn" class="btn btn-success btn-block"/>
+                    </label>
+                </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
